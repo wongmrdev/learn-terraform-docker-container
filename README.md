@@ -1,0 +1,1 @@
+This is a repo to track my Terraform testing. It includes AWS and Docker terraform projects. It was created from the [terraform tutorial](https://developer.hashicorp.com/terraform/tutorials/docker-get-started).
