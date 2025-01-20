@@ -1,0 +1,36 @@
+.env
+*secrets*
+*KEY*
+/node_modules
+
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Terraform provider plugins (local cache)
+.terraform/
+.terraform.lock.hcl
+
+# Ignore Terraform variable files with sensitive data
+*.auto.tfvars
+*.env
+
+# Ignore temporary files from editors/IDEs
+*.swp
+*.bak
+*.tmp
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore logs and debug output
+terraform.log
+debug.log
